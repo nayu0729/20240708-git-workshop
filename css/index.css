@@ -4,19 +4,43 @@ body {
     margin: 0;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    line-height: 60px;
+    background-color: #f8f8f8; 
+    padding: 0 20px; 
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
+    padding: 0 6px;
+    font-size: 14px;
+    letter-spacing: .1em;
     margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #000;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #007bff;
 }
 
 h1 {
@@ -37,9 +61,31 @@ p {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    display: none; /* 初期状態では非表示 */
+    display: none; 
 }
 
 #scrollTopBtn:hover {
     background-color: #0056b3;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 1000px;
+    height: 500px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 18px;
+    letter-spacing: .2em;
+    margin-right: auto; 
+}
+
+.logo a {
+    color: #33cc33;
 }
