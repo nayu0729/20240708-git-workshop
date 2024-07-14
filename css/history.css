@@ -39,6 +39,10 @@ nav ul li a {
     color: #333;
 }
 
+nav ul li a:hover {
+    color: #007bff;
+}
+
 h1 {
     color: #333;
 }
@@ -57,11 +61,20 @@ p {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    display: none; /* 初期状態では非表示 */
+    display: none; 
 }
 
 #scrollTopBtn:hover {
     background-color: #0056b3;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 1000px;
+    height: 500px;
 }
 
 .logo {
