@@ -25,7 +25,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     padding: 0 6px;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: .1em;
     margin-right: 20px;
 }
@@ -45,6 +45,13 @@ h1 {
 
 p {
     color: #666;
+}
+
+.map-container hr {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-top: 1px solid #ccc;
 }
 
 #scrollTopBtn {
